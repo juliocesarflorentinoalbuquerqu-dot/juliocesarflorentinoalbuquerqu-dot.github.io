@@ -174,30 +174,27 @@ footer i { margin-right: 0.5em; }
     nav ul { flex-direction: column; gap: 0.4em; }
     section { padding: 1.2em; scroll-margin-top: 80px; }
 }
-.logo-ifes {
-    position: absolute;
-    top: 15px;
-    left: 25px;
-    height: 110px;
-    width: auto;
-}
 </style>
 </head>
 <body>
-<header><img alt="Logo IFES" class="logo-ifes" src="logo ifes.jpeg"/>
-<h1><i class="fas fa-flask"></i> PRÁTICAS PEDAGÓGICAS DE EXPERIMENTAÇÃO EM QUÍMICA</h1>
-<p>Projeto com três práticas pedagógicas: Relógio de Iodo, Sangue do Diabo e pH no Repolho Roxo</p>
-<nav>
-<ul>
-<li><a href="#introducao">Introdução</a></li>
-<li><a href="#seguranca">Segurança</a></li>
-<li><a href="#relogio-iodo">Relógio de Iodo</a></li>
-<li><a href="#sangue-diabo">Sangue do Diabo</a></li>
-<li><a href="#repolho-roxo">pH no Repolho Roxo</a></li>
-<li><a href="#conclusao">Conclusão</a></li>
-</ul>
-</nav>
+<header>
+  <div style="text-align:center;">
+    <img alt="Logo IFES" class="logo-ifes" src="logo ifes.jpeg" style="position:static; height:120px; margin-bottom:10px;">
+  </div>
+  <h1><i class="fas fa-flask"></i> PRÁTICAS PEDAGÓGICAS DE EXPERIMENTAÇÃO EM QUÍMICA</h1>
+  <p>Projeto com três práticas pedagógicas: Relógio de Iodo, Sangue do Diabo e pH no Repolho Roxo</p>
+  <nav>
+    <ul>
+      <li><a href="#introducao">Introdução</a></li>
+      <li><a href="#seguranca">Segurança</a></li>
+      <li><a href="#relogio-iodo">Relógio de Iodo</a></li>
+      <li><a href="#sangue-diabo">Sangue do Diabo</a></li>
+      <li><a href="#repolho-roxo">pH no Repolho Roxo</a></li>
+      <li><a href="#conclusao">Conclusão</a></li>
+    </ul>
+  </nav>
 </header>
+
 <main>
 <section id="introducao">
 <h2><i class="fas fa-info-circle"></i> Introdução</h2>
